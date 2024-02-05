@@ -3,6 +3,7 @@ body {
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
+    margin: 90px;
   }
 
 .e {
@@ -12,7 +13,7 @@ body {
     width: fit-content;
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    /*margin-top: 90px;*/
 
 }
 
@@ -48,5 +49,5 @@ div {
     height: 500px;
     width: 500px;
     margin-left: 90px;
-    margin-top: 90px;
+    /*margin-top: 90px;*/
 }
