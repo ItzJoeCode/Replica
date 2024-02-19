@@ -1,10 +1,16 @@
 body {
     align-items: center;
     background-color: antiquewhite;
+}
+
+.container {
+    background-color: antiquewhite;
+    border: 0px;
     display: flex;
-    justify-content: center;
-    margin: 90px;
-  }
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
 
 .e {
     background-color: antiquewhite;
@@ -13,22 +19,12 @@ body {
     width: fit-content;
     display: flex;
     flex-direction: column;
-    /*margin-top: 90px;*/
+    padding: 90px;
 
 }
 
-.a {
-    height: fit-content;
-    width: fit-content;
-    display: flex;
-}
-
-.b {
-    height: fit-content;
-    width: fit-content;
-    display: flex;
-}
-
+.a,
+.b,
 .c {
     height: fit-content;
     width: fit-content;
@@ -44,10 +40,10 @@ div {
 
 .bonus {
     background-color: red;
-    border: black 1px solid;
+    /*border: 1px solid black;*/
     border-radius: 500px;
     height: 500px;
     width: 500px;
-    margin-left: 90px;
-    /*margin-top: 90px;*/
+    /*margin-left: 90px;*/
+    margin-top: 90px;
 }
